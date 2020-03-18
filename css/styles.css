@@ -1,269 +1,199 @@
-
 body {
-    font-family: "Montserrat";
-    text-align: center;
+	font-family: "Montserrat";
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-family: "Montserrat";
-    font-weight: bold;
+#title h1 {
+	font-family: "Montserrat";
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+	color: #fff;
 }
 
-h1 {
-    font-size: 3.5rem;
-    line-height: 1.5;
-    padding-top: 30px;
-    animation: flash;
+#title {
+	background-color: #ff4c68;
 }
 
-
-/* Headings */
-
-.big-heading {
-    font: "Montserrat";
-    font-weight: 900;
-    font-size: 3.5rem;
-}
-
-/* Sections */
-
-.colored-section {
-    background-color: #ff4c68;
-    color: #fff;
-}
-
-.white-section {
-    background-color: #fff;
-}
-
-
-/* Containers */
-
-.container-fluid {
-    padding: 7% 15%;
-}
-
-
-/* Navigtaion Bar */
 .navbar {
-    padding: 0 0 4.5rem;
+	margin-bottom: 100px;
+	padding: 0px;
 }
 
 .navbar-brand {
-    font-family: "Ubuntu";
-    font-size: 2.5rem;
-    font-weight: bold;
+	font-size: 2rem;
+	font-weight: bold;
+	font-family: "Ubuntu";
+}
+
+.navbar-nav {
+	font-size: 1rem;
+	font-family: "Montserrat";
 }
 
 .nav-item {
-    padding: 0 18px;
+	padding: 0px 20px;
 }
 
-.nav-link {
-    font-size: 1.2rem;
-    font-family: "Montserrat";
-    font-weight: lighter;
+.container-fluid {
+	padding: 3% 15%;
+	height: 610px;
 }
 
-/* Title Section */
-
-#title .container-fluid {
-    padding: 3% 15% 5%;
-    text-align: left;
+#phone-img {
+	transform: rotate(+25deg);
+	width: 60%;
+	overflow: auto;
+	position: relative;
+	bottom: 50px;
 }
 
-/* Downoload Buttons */
-
-.download-button {
-    margin: 5% 1% 25% 0;
+.second-container {
+	padding-top: 100px;
+	height: auto;
 }
 
-/* Title Image */
-
-.title-image {
-    width: 60%;
-    transform: rotate(25deg);
-    margin: 0 0 5% 20%;
-    position: absolute;
+.feature-text {
+	text-align: center;
+	padding: 5%;
 }
 
-
-
-/* Features Section */
+.feature-text h3 {
+	font-size: 1.5rem;
+	font-weight: bold;
+}
 
 #features {
-    position: relative;
-    z-index: 1;
+	background-color: #ffffff;
+	position: relative;
+	z-index: 0;
 }
 
-.feature-title {
-    font-size: 1.5rem;
+#features i {
+	color: #ff667e;
+	margin-bottom: 20px;
 }
 
-.feature-box {
-    padding: 5%;
+#features i:hover {
+	color: #ff4c68;
+	margin-bottom: 20px;
 }
-
-.icons-features {
-    color: #ef8172;
-    margin-bottom: 1rem;
-     /* font-size: 3rem;  Also works, instead of fa-4x inline class */ 
-}
-
-.icons-features:hover {
-    color: #ff4c68;
-}
-
-.text-features {
-    color: #8f8f8f;
-}
-
-
-/* Testimonials and Press Section */
 
 #testimonials {
-    background-color: #ef8172;
+	margin: auto;
+	text-align: center;
+	padding: 3%;
+	background-color: #ff667e;
 }
 
-.testimonial-text {
-    font-size: 3rem;
-    line-height: 1.5;
+#testimonials h2 {
+	font-family: "Montserrat";
+	font-size: 3rem;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 50px;
+	width: 80%;
+	margin: auto;
 }
 
-.testimonial-image {
-    width: 10%;
-    border-radius: 100%;
-    margin: 20px;
+#testimonials img {
+	width: 100px;
+	border-radius: 50px;
+	margin-right: 20px;
+}
+
+#testimonials em {
+	color: #ffffff;
 }
 
 #press {
-    background-color: #ef8172;
-    padding-bottom: 3%;
+	margin: auto;
+	text-align: center;
+	padding: 3%;
+	background-color: #ff667e;
 }
 
 .press-logo {
-    width: 15%;
-    margin: 20px 20px 50px;
+	width: 200px;
+	margin: 50px;
 }
-
-
-/* Pricing Section */
 
 #pricing {
-    padding: 100px;
+	margin: 100px auto;
 }
 
-.section-heading {
-    font-size: 3rem;
-    line-height: 1.5;
+#pricing-header {
+	margin: 50px auto;
+	text-align: center;
 }
 
-.price-text {
-    font-size: 3rem;
-    line-height: 1.5;
+.card {
+	text-align: center;
+	height: 400px;
+	margin-top: 50px;
 }
 
-.card{
-  text-align: center;
-  height: 400px;
-  margin-top: 50px;
+.card h2 {
+	font-weight: bold;
+	margin-bottom: 25px;
 }
 
-.card h2{
-  font-weight: bold;
-  margin-bottom: 25px;
+#cta {
+	background-color: #ff667e;
+	text-align: center;
+	padding: 3% 15%;
 }
 
-.pricing-column {
-    padding: 3% 2%;
+#cta h3 {
+	font-family: "Montserrat";
+	font-size: 3rem;
+	color: #ffffff;
+	font-weight: bold;
+	padding: 50px;
+	width: 80%;
+	margin: auto;
 }
 
-
-/* CTA */
-
-
-.download-button2 {
-    margin: 5% 1% 0% 0;;
+.cta-btn {
+	margin: 5% 2%;
 }
-
-
-/* Footer */
 
 #footer {
-    margin: 3%;
+	text-align: center;
+	padding: 3% 15%;
 }
 
-.icons-footer {
-    padding: 15px 10px;
+#footer .fab {
+	margin: 5% 2%;
 }
 
-
-/********************************* RESPONSIVE **************************/
-
-@media (max-width: 991px) {
-
-    #title .container-fluid {
-        text-align: center;
-        margin: 0 20px;
-    }
-
-    .title-image {
-        position: static;
-        transform: rotate(0);
-        margin: 0 0 10%;
-    }
-
+#footer .fab:hover {
+	color: #ff4c68;
 }
 
+@media (max-width: 900px) {
+	#title {
+		text-align: center;
+	}
 
-/* Icons Animation */
+	#title h1 {
+		font-size: 3rem;
+	}
 
-@keyframes rotation1
-{
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+	#title .btn {
+		width: 80%;
+		margin: 20px 0px;
+		text-align: center;
+	}
+
+	#phone-img {
+		position: static;
+		transform: rotate(0);
+		padding-top: 20px;
+		width: 60%;
+	}
+
+	.container-fluid {
+		height: 950px;
+		margin: auto;
+	}
 }
-
-.rotate {
-    animation: rotation1 10s infinite;
-    animation-timing-function: linear;
-    animation-direction: alternate;
-}
-
-
-/* Animation Tests */
-
-@-webkit-keyframes flash {
-    from,
-    50%,
-    to {
-      opacity: 1;
-    }
-  
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
-
-@keyframes flash {
-    from,
-    50%,
-    to {
-      opacity: 1;
-    }
-  
-    25%,
-    75% {
-      opacity: 0;
-    }
-  }
-
-  .flash {
-    -webkit-animation-name: flash;
-    animation-name: flash;
-  }
